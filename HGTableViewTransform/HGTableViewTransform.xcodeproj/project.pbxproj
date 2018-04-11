@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51085C37207E4B3400340521 /* SlackTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51085C36207E4B3400340521 /* SlackTextController.m */; };
+		51085C3F207E4BED00340521 /* SlackTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51085C3D207E4BED00340521 /* SlackTextCell.m */; };
+		51085C44207E52A700340521 /* CustomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51085C43207E52A700340521 /* CustomController.m */; };
+		510C0300207E482B00CBE0CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C02FF207E482B00CBE0CB /* AppDelegate.m */; };
+		510C0316207E485D00CBE0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510C0315207E485D00CBE0CB /* Assets.xcassets */; };
+		510C031B207E486400CBE0CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510C0317207E486400CBE0CB /* Main.storyboard */; };
+		510C031C207E486400CBE0CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510C0319207E486400CBE0CB /* LaunchScreen.storyboard */; };
+		510C031F207E487600CBE0CB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 510C031D207E487600CBE0CB /* Info.plist */; };
+		510C0320207E487600CBE0CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C031E207E487600CBE0CB /* main.m */; };
+		510C0326207E48C800CBE0CB /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 510C0325207E48C800CBE0CB /* HomeController.m */; };
+		61F2DB5583E7C0C019D987F9 /* libPods-HGTableViewTransform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B065E01015A97CBB82D3A3A5 /* libPods-HGTableViewTransform.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		51085C35207E4B3400340521 /* SlackTextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlackTextController.h; sourceTree = "<group>"; };
+		51085C36207E4B3400340521 /* SlackTextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlackTextController.m; sourceTree = "<group>"; };
+		51085C3C207E4BED00340521 /* SlackTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlackTextCell.h; sourceTree = "<group>"; };
+		51085C3D207E4BED00340521 /* SlackTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlackTextCell.m; sourceTree = "<group>"; };
+		51085C42207E52A700340521 /* CustomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomController.h; sourceTree = "<group>"; };
+		51085C43207E52A700340521 /* CustomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomController.m; sourceTree = "<group>"; };
+		510C02FB207E482B00CBE0CB /* HGTableViewTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGTableViewTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510C02FE207E482B00CBE0CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		510C02FF207E482B00CBE0CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		510C0315207E485D00CBE0CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		510C0318207E486400CBE0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		510C031A207E486400CBE0CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		510C031D207E487600CBE0CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		510C031E207E487600CBE0CB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		510C0324207E48C800CBE0CB /* HomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		510C0325207E48C800CBE0CB /* HomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		6CFE7A0327C69DB1FDC95A63 /* Pods-HGTableViewTransform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGTableViewTransform.release.xcconfig"; path = "Pods/Target Support Files/Pods-HGTableViewTransform/Pods-HGTableViewTransform.release.xcconfig"; sourceTree = "<group>"; };
+		A67749281993659043414918 /* Pods-HGTableViewTransform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HGTableViewTransform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HGTableViewTransform/Pods-HGTableViewTransform.debug.xcconfig"; sourceTree = "<group>"; };
+		B065E01015A97CBB82D3A3A5 /* libPods-HGTableViewTransform.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HGTableViewTransform.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510C02F8207E482B00CBE0CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F2DB5583E7C0C019D987F9 /* libPods-HGTableViewTransform.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51085C34207E4B1800340521 /* SlackText */ = {
+			isa = PBXGroup;
+			children = (
+				51085C35207E4B3400340521 /* SlackTextController.h */,
+				51085C36207E4B3400340521 /* SlackTextController.m */,
+			);
+			path = SlackText;
+			sourceTree = "<group>";
+		};
+		51085C38207E4BB300340521 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51085C3C207E4BED00340521 /* SlackTextCell.h */,
+				51085C3D207E4BED00340521 /* SlackTextCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51085C41207E529000340521 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				51085C42207E52A700340521 /* CustomController.h */,
+				51085C43207E52A700340521 /* CustomController.m */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		510C02F2207E482B00CBE0CB = {
+			isa = PBXGroup;
+			children = (
+				510C02FD207E482B00CBE0CB /* HGTableViewTransform */,
+				510C02FC207E482B00CBE0CB /* Products */,
+				D7001962B71E1220E5539B3B /* Pods */,
+				F22C75DE12EC02A120E9852C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		510C02FC207E482B00CBE0CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510C02FB207E482B00CBE0CB /* HGTableViewTransform.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510C02FD207E482B00CBE0CB /* HGTableViewTransform */ = {
+			isa = PBXGroup;
+			children = (
+				510C0322207E489C00CBE0CB /* Business */,
+				510C0321207E488600CBE0CB /* AppDelegate */,
+				510C0314207E484100CBE0CB /* SupportingFiles */,
+			);
+			path = HGTableViewTransform;
+			sourceTree = "<group>";
+		};
+		510C0314207E484100CBE0CB /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				510C0315207E485D00CBE0CB /* Assets.xcassets */,
+				510C0319207E486400CBE0CB /* LaunchScreen.storyboard */,
+				510C0317207E486400CBE0CB /* Main.storyboard */,
+				510C031D207E487600CBE0CB /* Info.plist */,
+				510C031E207E487600CBE0CB /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		510C0321207E488600CBE0CB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				510C02FE207E482B00CBE0CB /* AppDelegate.h */,
+				510C02FF207E482B00CBE0CB /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		510C0322207E489C00CBE0CB /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				510C0323207E48B600CBE0CB /* Home */,
+				51085C34207E4B1800340521 /* SlackText */,
+				51085C41207E529000340521 /* Custom */,
+				51085C38207E4BB300340521 /* View */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		510C0323207E48B600CBE0CB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				510C0324207E48C800CBE0CB /* HomeController.h */,
+				510C0325207E48C800CBE0CB /* HomeController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D7001962B71E1220E5539B3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A67749281993659043414918 /* Pods-HGTableViewTransform.debug.xcconfig */,
+				6CFE7A0327C69DB1FDC95A63 /* Pods-HGTableViewTransform.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F22C75DE12EC02A120E9852C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B065E01015A97CBB82D3A3A5 /* libPods-HGTableViewTransform.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510C02FA207E482B00CBE0CB /* HGTableViewTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510C0311207E482B00CBE0CB /* Build configuration list for PBXNativeTarget "HGTableViewTransform" */;
+			buildPhases = (
+				21F21E5FADB675C1A54CA373 /* [CP] Check Pods Manifest.lock */,
+				510C02F7207E482B00CBE0CB /* Sources */,
+				510C02F8207E482B00CBE0CB /* Frameworks */,
+				510C02F9207E482B00CBE0CB /* Resources */,
+				014C8499DFC7229F8E139B11 /* [CP] Embed Pods Frameworks */,
+				A5E29B978F2966AD46660C6C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HGTableViewTransform;
+			productName = HGTableViewTransform;
+			productReference = 510C02FB207E482B00CBE0CB /* HGTableViewTransform.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510C02F3207E482B00CBE0CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = CoderHG;
+				TargetAttributes = {
+					510C02FA207E482B00CBE0CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 510C02F6207E482B00CBE0CB /* Build configuration list for PBXProject "HGTableViewTransform" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510C02F2207E482B00CBE0CB;
+			productRefGroup = 510C02FC207E482B00CBE0CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510C02FA207E482B00CBE0CB /* HGTableViewTransform */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510C02F9207E482B00CBE0CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510C031F207E487600CBE0CB /* Info.plist in Resources */,
+				510C031C207E486400CBE0CB /* LaunchScreen.storyboard in Resources */,
+				510C0316207E485D00CBE0CB /* Assets.xcassets in Resources */,
+				510C031B207E486400CBE0CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		014C8499DFC7229F8E139B11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGTableViewTransform/Pods-HGTableViewTransform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21F21E5FADB675C1A54CA373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HGTableViewTransform-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5E29B978F2966AD46660C6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HGTableViewTransform/Pods-HGTableViewTransform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510C02F7207E482B00CBE0CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510C0320207E487600CBE0CB /* main.m in Sources */,
+				510C0326207E48C800CBE0CB /* HomeController.m in Sources */,
+				51085C44207E52A700340521 /* CustomController.m in Sources */,
+				510C0300207E482B00CBE0CB /* AppDelegate.m in Sources */,
+				51085C3F207E4BED00340521 /* SlackTextCell.m in Sources */,
+				51085C37207E4B3400340521 /* SlackTextController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		510C0317207E486400CBE0CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510C0318207E486400CBE0CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		510C0319207E486400CBE0CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510C031A207E486400CBE0CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510C030F207E482B00CBE0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		510C0310207E482B00CBE0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510C0312207E482B00CBE0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A67749281993659043414918 /* Pods-HGTableViewTransform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
+				INFOPLIST_FILE = HGTableViewTransform/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoderHG.HGTableViewTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		510C0313207E482B00CBE0CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CFE7A0327C69DB1FDC95A63 /* Pods-HGTableViewTransform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D8Y5E9ZUX3;
+				INFOPLIST_FILE = HGTableViewTransform/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CoderHG.HGTableViewTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510C02F6207E482B00CBE0CB /* Build configuration list for PBXProject "HGTableViewTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510C030F207E482B00CBE0CB /* Debug */,
+				510C0310207E482B00CBE0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510C0311207E482B00CBE0CB /* Build configuration list for PBXNativeTarget "HGTableViewTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510C0312207E482B00CBE0CB /* Debug */,
+				510C0313207E482B00CBE0CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 510C02F3207E482B00CBE0CB /* Project object */;
+}

@@ -1,0 +1,15 @@
+PODS:
+  - HGBaseClass (1.0.0)
+  - SlackTextViewController (1.9.6)
+
+DEPENDENCIES:
+  - HGBaseClass
+  - SlackTextViewController
+
+SPEC CHECKSUMS:
+  HGBaseClass: c88f3c1ffbf792664f0a01bfee2150b0dc2af77d
+  SlackTextViewController: b854e62c1c156336bc4fd409c6ca79b5773e8f9d
+
+PODFILE CHECKSUM: 05bfd4761d009441a7a1ea269371005f099d3207
+
+COCOAPODS: 1.4.0
